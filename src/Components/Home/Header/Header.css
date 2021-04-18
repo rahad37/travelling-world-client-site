@@ -1,0 +1,17 @@
+.header-container{
+    background: url('../../../images/bg-4.jpg') no-repeat center;
+    background-size: cover;
+    height: 680px;
+    position: relative;
+    z-index: 9;
+}
+.header-container::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: -1;
+}

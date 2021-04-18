@@ -1,0 +1,17 @@
+.headerService{
+    background: url('../../../../images/plane.jpg') no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    z-index: 9;
+}
+.headerService::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: -1;
+}

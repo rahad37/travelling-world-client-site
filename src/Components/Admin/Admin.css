@@ -1,0 +1,28 @@
+.admin-container {
+    height:675px;
+    position:relative;
+    background: url('../../images/ok.jpg');
+    background-size: cover;
+}
+.admin-container::after {
+    content:' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(34, 35, 36, 0.9);
+    /* z-index: 0; */
+}
+.design ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+    
+}
+.design ul li a{
+    color: white;
+}
+.lovely{
+    z-index: 1;
+}
